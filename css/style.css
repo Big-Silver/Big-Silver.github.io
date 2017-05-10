@@ -594,7 +594,11 @@ margin-right: -2px;
 	text-align: center;
 }
 
+.footer_href {
+	height: 5px;
+}
+
 .copyright {
-	margin: 40px 60px 0 0;
+	margin: 20px 60px 0 0;
 	text-align: right; 
 }
