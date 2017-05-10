@@ -593,3 +593,8 @@ margin-right: -2px;
 	background-color: #ccc;
 	text-align: center;
 }
+
+.copyright {
+	margin: 40px 60px 0 0;
+	text-align: right; 
+}

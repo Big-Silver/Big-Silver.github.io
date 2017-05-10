@@ -1,5 +1,3 @@
-Portal for IBM open source at GitHub http://ibm.github.io.
 
-Visit us at https://hub.jazz.net/project/kellrman/IBMGitHubOrg.
+Visit at https://Big-Silver.github.io
 
-[Contact us](mailto:hub@jazz.net)
