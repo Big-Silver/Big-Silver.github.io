@@ -1,9 +1,327 @@
-<!DOCTYPE html>    
-    <head>
-        <meta charset="utf-8">
-        <title>fabric.js-simple text display</title>        
-    </head>    
-    <body>
-        <h1>Hello World!</h1>        
-    </body> 
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="github.io">
+    <meta name="author" content="Big-Silver">
+
+    <title>Big-Silver @ Github</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <a id="dw-nav" class="navbar-brand" style="float: right" href="http://github.com/Big-Silver" title="github"><span class="dw-logo-IBM">Big</span><span class="dw-logo-d">-</span><span class="dw-logo-W">Silver</span></a>
+        <div class="navbar-header">
+        </div>
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Open Source at GitHub</h1>
+        <div class="leadspace-buttons">
+          <!--<a href="http://hub.jazz.net/" data-analytics-category="Leadspace buttons" data-analytics-action="JazzHub">
+            <p class="btn btn-primary btn-lg btn-custom-jazz">Enhance your GitHub experience with <b>Bluemix DevOps Services</b>
+            </p>
+          </a>
+        <a href="https://www.bluemix.net/" data-analytics-category="Leadspace buttons" data-analytics-action="BlueMix">
+                <p class="btn btn-primary btn-lg btn-custom-bm">Deploy your application to <b>Bluemix cloud platform</b></p>
+        </a>
+          <a href="http://developer.ibm.com/open" data-analytics-category="Leadspace buttons" data-analytics-action="developerWorks Open">
+                <p class="btn btn-primary btn-lg btn-custom-dw">Engage with IBM Open Source <b>developerWorks Open</b>
+                </p>
+          </a>-->
+          </div>
+        </div>
+      </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+              <div id="wrapper">
+                <label for="search" class="col-lg-4 control-label search"><span>Search</span> <input type="search" id="search" class="search-query span3 filter input-medium" placeholder="Our Repos..."></label>                
+                <div id="repos" class="columns collapse-group">                
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_container">
+        <p>© 2017 <span id="copyright-last-year">Big-Silver</span></p>
+      </div>
+    </footer>
+  </div> <!-- /container -->
+
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="./js/jquery.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/strftime.js"></script>
+      <script type="text/javascript" src="orgs.js"></script>
+      <script type="text/javascript">
+      
+      var updated = [];
+      var allrepos = [];
+      
+      // go to http://thissite.example.com/#DEBUG to set DEBUG=true
+      var DEBUG = (window.location.hash === '#DEBUG');
+      
+      (function ($, undefined) {
+        
+        var repoUrls = {
+        };
+
+        function repoUrl(repo) {
+          return repoUrls[repo.name] || repo.html_url;
+        }   
+        
+        function repoDescription(repo) {
+          desc = repo.description;
+          return desc;
+        }
+        
+        function addUpdated()
+        {
+          $("#updated").empty();
+          for (r=0; r < Math.min(4, updated.length); r++)
+          {
+            repo = updated[r];
+            desc = repoDescription(repo);
+            var $uitem = $("<div>").addClass("updated-card col-sm-5 col-md-4 col-lg-3");
+            var $item = $("<div>").addClass("card pin " + (repo.language || '').toLowerCase() + " "+repo.name.toLowerCase());
+            var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($item);
+            $link.append($("<h4>").text(repo.name));
+            $link.append($("<h5>").text((repo.language != null) ? repo.language : ""));
+            $item.append($("<p>").text(desc));
+            $item.appendTo($uitem);
+            $uitem.appendTo("#updated");
+          }
+          
+          var d = $("#updated").collapse({
+          toggle: true
+        });
+
+        }
+        
+        function addAllRepos()
+        {
+          $("#allrepos").empty();
+          
+          for (r=0; r < allrepos.length; r++)
+          {
+            repo = allrepos[r];
+            desc = repoDescription(repo);
+            var $item = $("<div>").addClass("card pin col-sm-5 col-md-4 col-lg-3 " + (repo.language || '').toLowerCase() + " "+repo.name.toLowerCase());
+            var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($item);
+            $link.append($("<h4>").html(repo.name + "<div class='org'><a href='"+repo.html_url));
+            $link.append($("<h5>").text((repo.language != null) ? repo.language : ""));
+            $item.append($("<p>").text(desc));
+            htag = "#allrepos";
+            $item.appendTo(htag);
+          }
+          
+          $(".nrepos").text("("+allrepos.length+")");
+          
+          var d = $("#allrepos").collapse({
+          toggle: true
+        });
+          
+        }
+
+        function pushRepo(repos, org) 
+        {
+          var left = repos; var right = allrepos;
+          var result  = [],
+          il      = 0,
+          ir      = 0;
+          
+          while (il < left.length && ir < right.length){
+          if (left[il].name.toLowerCase() < right[ir].name.toLowerCase()){
+            result.push(left[il++]);
+          } else {
+            result.push(right[ir++]);
+          }
+        }
+        
+        allrepos.push(repos);
+      }      
+      
+      function mergeUpdated(repos)
+      {
+        var left = repos; var right = updated;
+        var result  = [],
+        il      = 0,
+        ir      = 0;
+        
+        while (il < left.length && ir < right.length){
+          if (left[il].pushed_at > right[ir].pushed_at){
+            result.push(left[il++]);
+          } else {
+            result.push(right[ir++]);
+          }
+        }
+        updated.push(repos);
+      }
+      
+      function addRepos(orgs, repos, page) {
+      var forks = [];
+      var org = orgs.name;
+      repos = repos || [];
+      page = page || 1;
+          repos = orgs;
+          mergeUpdated(repos);
+          pushRepo(repos, org);
+
+          addUpdated();
+          addAllRepos();
+      }
+      
+      $("<div>").addClass("separator").appendTo("#wrapper");
+      var $sectiontitle = $("<div>").addClass("section-title").appendTo("#wrapper");
+      var $title = $("<span>").addClass('title').text("recommend").appendTo($sectiontitle);
+      var $item = $("<div id='updated'>").addClass("columns section collapse");
+      $item.appendTo($sectiontitle);
+      var $twistie = $("<a data-toggle='collapse' data-target='#updated'>").addClass("twistie showdetails");
+      $twistie.appendTo($sectiontitle);
+
+      $("<div>").addClass("separator gap").appendTo("#wrapper");
+      var $sectiontitle = $("<div>").addClass("section-title").appendTo("#wrapper");
+      var $title = $("<span>").addClass('title').text("repos").appendTo($sectiontitle);
+      var $repos = $("<span>").addClass('nrepos').text("(0)").appendTo($title);
+      var $item = $("<div id='allrepos'>").addClass("columns section collapse");
+      $item.appendTo($sectiontitle);
+      var $twistie = $("<a data-toggle='collapse' data-target='#allrepos'>").addClass("twistie showdetails");
+      $twistie.appendTo($sectiontitle);
+
+      for (var r in orgs)
+      {
+        addRepos(orgs[r]);
+      }
+      
+      
+      $("<div>").addClass("separator").appendTo("#wrapper");
+      
+
+
+    })(jQuery);
+    
+    $('#search').keyup(function() {
+      var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+      $rows = $(".card")
+      $rows.show().filter(function() {
+        var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+        return !~text.indexOf(val);
+      }).hide();
+      
+      // update repo count here
+      n = $rows.length;
+      for (r in $rows)
+      {
+        row = $rows[r];
+        style = row.style;
+        if (style && style.cssText && style.cssText.match("none"))
+        {
+          n--;
+        }
+
+      }
+      
+      $rows = $(".updated-card");
+      $rows.show().filter(function() {
+        var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+        return !~text.indexOf(val);
+      }).hide();
+      
+      m = 4;
+      for (r in $rows)
+      {
+        row = $rows[r];
+        style = row.style;
+        if (style && style.cssText && style.cssText.match("none"))
+        {
+          m--;
+        }
+
+      }
+      
+      $(".nrepos").text("("+(n - m)+")");
+      
+
+      // ---------------------------------
+      // Google Analytics Event Tracking
+      // 
+      // 
+      // usage: add the following attributes to links you want to track:
+      //   data-analytics-category=""    REQUIRED  String   Typically the object that was interacted with (e.g. button)
+      //   data-analytics-action=""      REQUIRED  String   The type of interaction (e.g. click)
+      //   data-analytics-label=""       OPTIONAL  String   Useful for categorizing events (e.g. nav buttons)
+      //   data-analytics-value=""       OPTIONAL  Integer  Values must be non-negative. Useful to pass counts (e.g. 4 times)
+      //
+      // Those are the suggested usages, but you can use the attributes how you want
+      // see https://developers.google.com/analytics/devguides/collection/analyticsjs/events for more details
+      // 
+      // EXAMPLE:
+      // <a href="http://ibm.com" data-analytics-category="Leadspace button" data-analytics-action="To ibm.com">Off you go!</a>
+      // ---------------------------------
+      
+      $('body').on('click', 'a[data-analytics-category][data-analytics-action]', function(e){
+
+        // No analytics? Bail.
+        if ( ! window.ga )
+          return;
+        
+        // for links to external sources, we need a tiny delay to have a little extra time to send to Google's servers before unload
+        // 200ms is about right for enough time
+        if (this.hostname && this.hostname !== location.hostname) {
+          // Stop the link action
+          e.preventDefault();
+          
+          // setTimeout callback is called in the window scope, so cache the url from the link now
+          var url = this.href;
+          
+          // in 200ms, off you go
+          setTimeout(function(){
+            document.location = url;        
+          },200);
+        }
+        
+        var $el = $(this),
+            data = {'hitType': 'event'}; // make a new data object 
+            
+        // category (required string)
+        data['eventCategory'] =  $el.attr('data-analytics-category');
+        
+        // action (required string)
+        data['eventAction'] = $el.attr('data-analytics-action');
+        
+        // label (optional string)
+        if ( $el.attr('data-analytics-label') )
+          data['eventLabel'] = $el.attr('data-analytics-label');
+
+        // value (optional int)
+        if ( $el.attr('data-analytics-value') )
+          data['eventValue'] = parseInt( $el.attr('data-analytics-value') );
+
+        // send the data
+        ga('send', data);
+        
+      });
+    // Fix copyright to be the current year.
+    $('#copyright-last-year').text(new Date().getFullYear());
+  });
+  </script>
+  </body>
 </html>
