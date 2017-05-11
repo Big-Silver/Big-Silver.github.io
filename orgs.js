@@ -147,4 +147,11 @@
             "description": "This project is Drag n Drop, Clone, Resize, Rotate and Delete using Fabric.js, Javascript and JQuery.",
             "html_url": "https://github.com/Big-Silver/Fabric-Drag-n-Drop"
         },
+        {
+            "name": "Angular & FabricJS - 2d@diagram",
+            "type": "project",
+            "language": "AngularJS, Angular-ui, Fabric.js, Javascript",
+            "description": "A browser-based 2D diagram editor, built using AngularJS, AngularUI and Fabric.js.",
+            "html_url": "https://github.com/Big-Silver/Angular-FabricJS-2d-Diagram"
+        },
     ];
