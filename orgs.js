@@ -154,4 +154,11 @@
             "description": "A browser-based 2D diagram editor, built using AngularJS, AngularUI and Fabric.js.",
             "html_url": "https://github.com/Big-Silver/Angular-FabricJS-2d-Diagram"
         },
+        {
+            "name": "Angular v1 - D3",
+            "type": "project",
+            "language": "AngularJS, D3.js, Javascript, Bootstrap",
+            "description": "Fisheye & Fource Distortion is built using Angular v1 and D3.",
+            "html_url": "https://github.com/Big-Silver/Angular-D3.git"
+        },
     ];
