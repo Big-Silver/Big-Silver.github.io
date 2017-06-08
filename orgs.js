@@ -161,4 +161,25 @@
             "description": "Fisheye & Fource Distortion is built using Angular v1 and D3.",
             "html_url": "https://github.com/Big-Silver/Angular-D3.git"
         },
+        {
+            "name": "landing-page-animation",
+            "type": "project",
+            "language": "Javascript, JQuery, Html, CSS and Bootstrap",
+            "description": "Landing Animation is built using Javascript, JQuery, Html and CSS.",
+            "html_url": "https://github.com/Big-Silver/Angular-D3.git"
+        },
+        {
+            "name": "Angular v2 - FabricJS",
+            "type": "project",
+            "language": "Angular v2, Fabric.js, Javascript, Bootstrap",
+            "description": "IText & IText Box is built using Angular v2 and Fabric.js   .",
+            "html_url": "https://github.com/Big-Silver/Angular2-FabricJS.git"
+        },
+        {
+            "name": "Image-Art-Drag-and-Drop",
+            "type": "project",
+            "language": "Javascript, JQuery, Html, CSS, Bootstrap",
+            "description": "Image Drag n drop is built using Javascript, JQuery and CSS.",
+            "html_url": "https://github.com/Big-Silver/Image-Art-Drag-and-Drop.git"
+        },
     ];
