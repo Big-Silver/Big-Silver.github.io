@@ -189,4 +189,11 @@
             "description": "Using spell photo, can implement he Art word.",
             "html_url": "https://github.com/Big-Silver/Spellitphotoart.git"
         },
+        {
+            "name": "Simple-Trello-Automate-Workflow",
+            "type": "project",
+            "language": "React.js, Redux, React-dnd, Trello API",
+            "description": "Trello board",
+            "html_url": "https://github.com/Big-Silver/Simple-Trello-Automate-Workflow.git"
+        },
     ];
