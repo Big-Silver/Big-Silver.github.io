@@ -196,4 +196,18 @@
             "description": "Trello board",
             "html_url": "https://github.com/Big-Silver/Simple-Trello-Automate-Workflow.git"
         },
+        {
+            "name": "jsPlumb-Angular",
+            "type": "project",
+            "language": "AngularJS, jsPlumb, Javascript",
+            "description": "Using AngularJS and jsPlumb, drag and drop and data visualization",
+            "html_url": "https://github.com/Big-Silver/jsPlumb-Angular.git"
+        },
+        {
+            "name": "Gridstack-Demo",
+            "type": "project",
+            "language": "Javascript, Jquery, Gridstack, HTML5, CSS3",
+            "description": "jQuery plugin for widget layout. This is drag-and-drop multi-column grid.",
+            "html_url": "https://github.com/Big-Silver/Gridstack-Demo.git"
+        },
     ];
