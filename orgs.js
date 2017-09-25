@@ -210,4 +210,46 @@
             "description": "jQuery plugin for widget layout. This is drag-and-drop multi-column grid.",
             "html_url": "https://github.com/Big-Silver/Gridstack-Demo.git"
         },
+        {
+            "name": "Ionic-Resort-App",
+            "type": "project",
+            "language": "Angular, Ionic, Cordova, Javascript, HTML",
+            "description": "Demo app built with the Ionic Framework designed to be a resort app.",
+            "html_url": "https://github.com/Big-Silver/Ionic-Resort-App.git"
+        },
+        {
+            "name": "Ionic-PushNotification-Server",
+            "type": "project",
+            "language": "ios, android, push-notification, java, apns, fcm",
+            "description": "Server code to send Push Notification to iOS or Android device.",
+            "html_url": "https://github.com/Big-Silver/Ionic-PushNotification-Server.git"
+        },
+        {
+            "name": "Ionic-PushNotification",
+            "type": "project",
+            "language": "ios, android, push-notification, angular",
+            "description": "Server code to send Push Notification to iOS or Android device.",
+            "html_url": "https://github.com/Big-Silver/Ionic-PushNotification.git"
+        },
+        {
+            "name": "Javascript-Animation",
+            "type": "project",
+            "language": "react, redux, Javascript, web-animation",
+            "description": "Animations of Web Animations API.",
+            "html_url": "https://github.com/Big-Silver/Javascript-Animation.git"
+        },
+        {
+            "name": "Ionic3-knob",
+            "type": "project",
+            "language": "Ionic3, Angular 2, D3.js",
+            "description": "Using Angular 2 and D3.js, built highchart.",
+            "html_url": "https://github.com/Big-Silver/Ionic3-knob.git"
+        },
+        {
+            "name": "Ionic-CoreData",
+            "type": "project",
+            "language": "Ionic3, Angular 4, RESTful APIs.",
+            "description": "Mobile version of CoreData.",
+            "html_url": "https://github.com/Big-Silver/Ionic-CoreData.git"
+        },
     ];
