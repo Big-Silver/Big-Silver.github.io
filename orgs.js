@@ -252,4 +252,25 @@
             "description": "Mobile version of CoreData.",
             "html_url": "https://github.com/Big-Silver/Ionic-CoreData.git"
         },
+        {
+            "name": "shopping-cart",
+            "type": "project",
+            "language": "javascript, jquery, html5, css3",
+            "description": "shopping cart example",
+            "html_url": "https://github.com/Big-Silver/shopping-cart.git"
+        },
+        {
+            "name": "React-Redux-Material-UI",
+            "type": "project",
+            "language": "reactjs, react-router, redux, axios, metronic",
+            "description": "Usinng React.js, Redux, Axios and Material UI.",
+            "html_url": "https://github.com/Big-Silver/React-Redux-Material-UI.git"
+        },
+        {
+            "name": "CKEditor-Widget-Customize",
+            "type": "project",
+            "language": "ckeditor, javascript, jquery, html5, css",
+            "description": "Mobile version of CoreData.",
+            "html_url": "https://github.com/Big-Silver/CKEditor-Widget-Customize.git"
+        },
     ];
