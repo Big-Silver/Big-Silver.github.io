@@ -273,4 +273,39 @@
             "description": "Mobile version of CoreData.",
             "html_url": "https://github.com/Big-Silver/CKEditor-Widget-Customize.git"
         },
+        {
+            "name": "Vue-seed",
+            "type": "project",
+            "language": "vuejs, javascript, html, bootstrap, material-design",
+            "description": "fuse-box-vue-seed.",
+            "html_url": "https://github.com/Big-Silver/Vue-seed.git"
+        },
+        {
+            "name": "Vue-Drag-and-Drop",
+            "type": "project",
+            "language": "vuejs, javascript, html, bootstrap",
+            "description": "Vue drag and drop.",
+            "html_url": "https://github.com/Big-Silver/Vue-Drag-and-Drop.git"
+        },
+        {
+            "name": "Angular4-Timer",
+            "type": "project",
+            "language": "angular4, javascript, observable",
+            "description": "Angular4 Timer using observable.",
+            "html_url": "https://github.com/Big-Silver/Angular4-Timer.git"
+        },
+        {
+            "name": "vue2-socket.io-kit",
+            "type": "project",
+            "language": "vuejs, socket.io, javascript, html, bootstrap",
+            "description": "VueJS Socket.io",
+            "html_url": "https://github.com/Big-Silver/vue2-socket.io-kit.git"
+        },
+        {
+            "name": "vue2-socket-betcoin",
+            "type": "project",
+            "language": "vuejs, socket.io, javascript, html, bootstrap",
+            "description": "VueJS Socket Betcoin",
+            "html_url": "https://github.com/Big-Silver/vue2-socket-betcoin.git"
+        },
     ];
