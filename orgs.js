@@ -1,6 +1,34 @@
 
     var orgs = [
         {
+            "name": "Angular5-Chat",
+            "type": "project",
+            "language": "Angular-cli, Angular5, Socket.io, Material Design, Javascript and bootstrap",
+            "description": "The chatting app like slack",
+            "html_url": "https://github.com/Big-Silver/Angular5-Chat.git"
+        },,
+        {
+            "name": "CKEditor-Widget-Customize",
+            "type": "project",
+            "language": "ckeditor, javascript, jquery, html5, css",
+            "description": "Mobile version of CoreData.",
+            "html_url": "https://github.com/Big-Silver/CKEditor-Widget-Customize.git"
+        },
+        {
+            "name": "Fabric-Drag n Drop",
+            "type": "project",
+            "language": "Fabric.js, Javascript, JQuery",
+            "description": "This project is Drag n Drop, Clone, Resize, Rotate and Delete using Fabric.js, Javascript and JQuery.",
+            "html_url": "https://github.com/Big-Silver/Fabric-Drag-n-Drop"
+        },
+        {
+            "name": "Angular & CKEditor-Drag n Drop",
+            "type": "project",
+            "language": "AngularJS, CKEDitor",
+            "description": "This project was generated with angular-cli version 1.0.0-beta.26. Using Angular+CKEditor+Drag and Drop, Edit the Basic Template.",
+            "html_url": "https://github.com/Big-Silver/Angular-Drag-and-Drop"
+        },
+        {
             "name": "Angular2 & crud-cli",
             "type": "project",
             "language": "AngularJS",
@@ -20,13 +48,6 @@
             "language": "Node/Express, MongoDB",
             "description": "User SignUp & LogIn, Reset via Email, implemented the Authentication",
             "html_url": "https://github.com/Big-Silver/Node-Authentication"
-        },
-        {
-            "name": "Angular & CKEditor-Drag n Drop",
-            "type": "project",
-            "language": "AngularJS, CKEDitor",
-            "description": "This project was generated with angular-cli version 1.0.0-beta.26. Using Angular+CKEditor+Drag and Drop, Edit the Basic Template.",
-            "html_url": "https://github.com/Big-Silver/Angular-Drag-and-Drop"
         },
         {
             "name": "D3-Mobile-Suits",
@@ -141,13 +162,6 @@
             "html_url": "https://github.com/Big-Silver/Redux-Climate-Dashboard"
         },
         {
-            "name": "Fabric-Drag n Drop",
-            "type": "project",
-            "language": "Fabric.js, Javascript, JQuery",
-            "description": "This project is Drag n Drop, Clone, Resize, Rotate and Delete using Fabric.js, Javascript and JQuery.",
-            "html_url": "https://github.com/Big-Silver/Fabric-Drag-n-Drop"
-        },
-        {
             "name": "Angular & FabricJS - 2d@diagram",
             "type": "project",
             "language": "AngularJS, Angular-ui, Fabric.js, Javascript",
@@ -260,20 +274,6 @@
             "html_url": "https://github.com/Big-Silver/shopping-cart.git"
         },
         {
-            "name": "React-Redux-Material-UI",
-            "type": "project",
-            "language": "reactjs, react-router, redux, axios, metronic",
-            "description": "Usinng React.js, Redux, Axios and Material UI.",
-            "html_url": "https://github.com/Big-Silver/React-Redux-Material-UI.git"
-        },
-        {
-            "name": "CKEditor-Widget-Customize",
-            "type": "project",
-            "language": "ckeditor, javascript, jquery, html5, css",
-            "description": "Mobile version of CoreData.",
-            "html_url": "https://github.com/Big-Silver/CKEditor-Widget-Customize.git"
-        },
-        {
             "name": "Vue-seed",
             "type": "project",
             "language": "vuejs, javascript, html, bootstrap, material-design",
@@ -307,5 +307,76 @@
             "language": "vuejs, socket.io, javascript, html, bootstrap",
             "description": "VueJS Socket Betcoin",
             "html_url": "https://github.com/Big-Silver/vue2-socket-betcoin.git"
+        },
+        {
+            "name": "React-Redux-Material-Chatting",
+            "type": "project",
+            "language": "Using React.js, Redux, Axios, Material UI.",
+            "description": "User authentication, chatting and admin dashboard using React.js, Thunk and Material design",
+            "html_url": "https://github.com/Big-Silver/React-Redux-Material-Chatting.git"
+        },
+        {
+            "name": "ionic3-d3-chart",
+            "type": "project",
+            "language": "Ionic3, D3.js",
+            "description": "This is an ionic 3 + d3 chart app.",
+            "html_url": "https://github.com/Big-Silver/ionic3-d3-chart.git"
+        },
+        {
+            "name": "Angular4-Amchart",
+            "type": "project",
+            "language": "Angular4, Amchart.js, Javascript, Map",
+            "description": "This project is an application skeleton for a Angular4 web app. You can use it to quickly bootstrap your angular4 projects and dev environment for these projects.",
+            "html_url": "https://github.com/Big-Silver/Angular4-Amchart.git"
+        },
+        {
+            "name": "Angular4-N_Tier",
+            "type": "project",
+            "language": "Angular4, Javascript",
+            "description": "Angular4 file system",
+            "html_url": "https://github.com/Big-Silver/Angular4-N_Tier.git"
+        },
+        
+        {
+            "name": "Node-Chat",
+            "type": "project",
+            "language": "Node.js, Express.js, Socket.io, Mongoose, Javascript",
+            "description": "For Angular5 and React Material Chatting Apps",
+            "html_url": "https://github.com/Big-Silver/Node-Chat.git"
+        },
+        {
+            "name": "angular4-d3-component",
+            "type": "project",
+            "language": "Angular 4, D3.js, Javascript",
+            "description": "Several d3 components for Angular 4.",
+            "html_url": "https://github.com/Big-Silver/angular4-d3-component.git"
+        },
+        {
+            "name": "Legacy-ionic-heroku",
+            "type": "project",
+            "language": "Ionic, Angular, Heroku",
+            "description": "This is built project of Ionic 3 for heroku deploy.",
+            "html_url": "https://github.com/Big-Silver/Legacy-ionic-heroku.git"
+        },
+        {
+            "name": "ionic2-swipe",
+            "type": "project",
+            "language": "ionic2, angular2, ionic2-swipe",
+            "description": "This is Ionic2 app that I used swipe animation.",
+            "html_url": "https://github.com/Big-Silver/ionic2-swipe.git"
+        },
+        {
+            "name": "ionic3-google-facebook-qrcode",
+            "type": "project",
+            "language": "Ionic 3, Angular 4, Facebook, Google-facebook, Qrcode",
+            "description": "This app was built with Ionic 3, Angular 4, Facebook and Google API and shows QRcode.",
+            "html_url": "https://github.com/Big-Silver/ionic3-google-facebook-qrcode.git"
+        },
+        {
+            "name": "angular4-dashboard",
+            "type": "project",
+            "language": "Angular 4, Admin-dashboard, Javascript",
+            "description": "This is a dashboard using Angular 4 + Bootstrap 4.",
+            "html_url": "https://github.com/Big-Silver/angular4-dashboard.git"
         },
     ];
