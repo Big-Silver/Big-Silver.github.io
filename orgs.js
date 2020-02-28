@@ -197,11 +197,11 @@
             "html_url": "https://github.com/Big-Silver/Image-Art-Drag-and-Drop.git"
         },
         {
-            "name": "Spellitphotoart",
+            "name": "Spellit-Photo-Art",
             "type": "project",
             "language": "angularjs, photos, javascript, bootstrap, css",
             "description": "Using spell photo, can implement he Art word.",
-            "html_url": "https://github.com/Big-Silver/Spellitphotoart.git"
+            "html_url": "https://github.com/Big-Silver/Spellit-Photo-Art.git"
         },
         {
             "name": "Simple-Trello-Automate-Workflow",
@@ -267,18 +267,18 @@
             "html_url": "https://github.com/Big-Silver/Ionic-CoreData.git"
         },
         {
-            "name": "shopping-cart",
+            "name": "Shopping-Cart",
             "type": "project",
             "language": "javascript, jquery, html5, css3",
             "description": "shopping cart example",
-            "html_url": "https://github.com/Big-Silver/shopping-cart.git"
+            "html_url": "https://github.com/Big-Silver/Shopping-Cart.git"
         },
         {
-            "name": "Vue-seed",
+            "name": "Vue-Seed",
             "type": "project",
             "language": "vuejs, javascript, html, bootstrap, material-design",
             "description": "fuse-box-vue-seed.",
-            "html_url": "https://github.com/Big-Silver/Vue-seed.git"
+            "html_url": "https://github.com/Big-Silver/Vue-Seed.git"
         },
         {
             "name": "Vue-Drag-and-Drop",
@@ -295,11 +295,11 @@
             "html_url": "https://github.com/Big-Silver/Angular4-Timer.git"
         },
         {
-            "name": "vue2-socket.io-kit",
+            "name": "Vue2-Socket.io-Kit",
             "type": "project",
-            "language": "vuejs, socket.io, javascript, html, bootstrap",
+            "language": "vuejs, socket.io, vuex, javascript",
             "description": "VueJS Socket.io",
-            "html_url": "https://github.com/Big-Silver/vue2-socket.io-kit.git"
+            "html_url": "https://github.com/Big-Silver/Vue2-Socket.io-Kit.git"
         },
         {
             "name": "vue2-socket-betcoin",
@@ -335,8 +335,7 @@
             "language": "Angular4, Javascript",
             "description": "Angular4 file system",
             "html_url": "https://github.com/Big-Silver/Angular4-N_Tier.git"
-        },
-        
+        },        
         {
             "name": "Node-Chat",
             "type": "project",
@@ -352,11 +351,11 @@
             "html_url": "https://github.com/Big-Silver/Angular4-D3-Component.git"
         },
         {
-            "name": "Legacy-ionic-heroku",
+            "name": "Ionic-Legacy-HerokuApp",
             "type": "project",
             "language": "Ionic, Angular, Heroku",
             "description": "This is built project of Ionic 3 for heroku deploy.",
-            "html_url": "https://github.com/Big-Silver/Legacy-ionic-heroku.git"
+            "html_url": "https://github.com/Big-Silver/Ionic-Legacy-HerokuApp.git"
         },
         {
             "name": "Ionic2-Swipe",
@@ -470,5 +469,82 @@
             "language": "isotope-animation, javascript, html, css, animation",
             "description": "Isotope Animation",
             "html_url": "https://github.com/Big-Silver/Isotope-Animation.git"
+        },
+        {
+            "name": "Laravel-Seed",
+            "type": "project",
+            "language": "php, php7, laravel, laravel-seed, spatie, vue, vuex, vue-router",
+            "description": "Laravel Seed project - Laravel version 6.x",
+            "html_url": "https://github.com/Big-Silver/Laravel-Seed.git"
+        },
+        {
+            "name": "Leaflet-based-Javascript-Mapper-App",
+            "type": "project",
+            "language": "leafletjs, mapbox, javascript, html, css",
+            "description": "Leaflet Map - Mapper App",
+            "html_url": "https://github.com/Big-Silver/Leaflet-based-Javascript-Mapper-App.git"
+        },
+        {
+            "name": "Node-NgSlack-API",
+            "type": "project",
+            "language": "nodejs, expressjs, socket-io",
+            "description": "Express Slack Api",
+            "html_url": "https://github.com/Big-Silver/Leaflet-based-Javascript-Mapper-App.git"
+        },
+        {
+            "name": "ReactNative-Oreilly-App",
+            "type": "project",
+            "language": "react-native, reactjs, swift, object-c, expo",
+            "description": "Auto Engine Service App",
+            "html_url": "https://github.com/Big-Silver/ReactNative-Oreilly-App.git"
+        },
+        {
+            "name": "React-Gatsby-Tangomodel",
+            "type": "project",
+            "language": "reactjs, thunk, gatsby, javascript, bootstrap, html5, css3",
+            "description": "The Tangomodel website in React.js + Gatsby",
+            "html_url": "https://github.com/Big-Silver/React-Gatsby-Tangomodel.git"
+        },
+        {
+            "name": "React-Mapbox-RoundTrip",
+            "type": "project",
+            "language": "react, reactjs, deck-gl, mapbox, javascript, html5, css3",
+            "description": "Deck-gl roundTrip",
+            "html_url": "https://github.com/Big-Silver/React-Mapbox-RoundTrip.git"
+        },
+        {
+            "name": "ReactNative-Zirtue-App",
+            "type": "project",
+            "language": "react-native, reactjs, object-c, redux-saga",
+            "description": "Zirtue-Payee Reactnative App",
+            "html_url": "https://github.com/Big-Silver/ReactNative-Zirtue-App.git"
+        },
+        {
+            "name": "TinyMCE-Editor",
+            "type": "project",
+            "language": "tinymce, tinymce-editor, tinymce-plugin, javascript, html5",
+            "description": "Implement the drag & drop, and updated the section style.",
+            "html_url": "https://github.com/Big-Silver/TinyMCE-Editor.git"
+        },
+        {
+            "name": "Vue-Shopping-Cart",
+            "type": "project",
+            "language": "vue, vuejs, vue-shopping-cart",
+            "description": "Simple responsive todo Vue project",
+            "html_url": "https://github.com/Big-Silver/Vue-Shopping-Cart.git"
+        },
+        {
+            "name": "ReactNatve-Walltap-App",
+            "type": "project",
+            "language": "react-native, reactjs, object-c, redux-saga, facebook, twitter",
+            "description": "Voting app using Firebase and React Native - Facebook, Twitter Authentication, Google Admob, In app purchase",
+            "html_url": "https://github.com/Big-Silver/ReactNatve-Walltap-App.git"
+        },
+        {
+            "name": "React-Calendar-Todo",
+            "type": "project",
+            "language": "reactjs, redux-saga, typescript, react-calendar, react-emotion",
+            "description": "Welcome to the Redux 4 + TypeScript 2.9 Calendar example! This example site shows you the ideal project structure, recommended libraries, as well as design pattern on writing type-safe React + Redux app with TypeScript.",
+            "html_url": "https://github.com/Big-Silver/React-Calendar-Todo.git"
         },
     ];
