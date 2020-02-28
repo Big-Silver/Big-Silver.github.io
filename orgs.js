@@ -176,11 +176,11 @@
             "html_url": "https://github.com/Big-Silver/Angular-D3.git"
         },
         {
-            "name": "landing-page-animation",
+            "name": "landing-Page-Animation",
             "type": "project",
             "language": "Javascript, JQuery, Html, CSS and Bootstrap",
             "description": "Landing Animation is built using Javascript, JQuery, Html and CSS.",
-            "html_url": "https://github.com/Big-Silver/Angular-D3.git"
+            "html_url": "https://github.com/Big-Silver/landing-Page-Animation.git"
         },
         {
             "name": "Angular v2 - FabricJS",
@@ -211,11 +211,11 @@
             "html_url": "https://github.com/Big-Silver/Simple-Trello-Automate-Workflow.git"
         },
         {
-            "name": "jsPlumb-Angular",
+            "name": "JsPlumb-Angular",
             "type": "project",
             "language": "AngularJS, jsPlumb, Javascript",
             "description": "Using AngularJS and jsPlumb, drag and drop and data visualization",
-            "html_url": "https://github.com/Big-Silver/jsPlumb-Angular.git"
+            "html_url": "https://github.com/Big-Silver/JsPlumb-Angular.git"
         },
         {
             "name": "Gridstack-Demo",
@@ -253,11 +253,11 @@
             "html_url": "https://github.com/Big-Silver/Javascript-Animation.git"
         },
         {
-            "name": "Ionic3-knob",
+            "name": "Ionic3-Knob",
             "type": "project",
             "language": "Ionic3, Angular 2, D3.js",
             "description": "Using Angular 2 and D3.js, built highchart.",
-            "html_url": "https://github.com/Big-Silver/Ionic3-knob.git"
+            "html_url": "https://github.com/Big-Silver/Ionic3-Knob.git"
         },
         {
             "name": "Ionic-CoreData",
@@ -316,11 +316,11 @@
             "html_url": "https://github.com/Big-Silver/React-Redux-Material-Chatting.git"
         },
         {
-            "name": "ionic3-d3-chart",
+            "name": "Ionic3-D3-Chart",
             "type": "project",
             "language": "Ionic3, D3.js",
             "description": "This is an ionic 3 + d3 chart app.",
-            "html_url": "https://github.com/Big-Silver/ionic3-d3-chart.git"
+            "html_url": "https://github.com/Big-Silver/Ionic3-D3-Chart.git"
         },
         {
             "name": "Angular4-Amchart",
@@ -345,11 +345,11 @@
             "html_url": "https://github.com/Big-Silver/Node-Chat.git"
         },
         {
-            "name": "angular4-d3-component",
+            "name": "Angular4-D3-Component",
             "type": "project",
             "language": "Angular 4, D3.js, Javascript",
             "description": "Several d3 components for Angular 4.",
-            "html_url": "https://github.com/Big-Silver/angular4-d3-component.git"
+            "html_url": "https://github.com/Big-Silver/Angular4-D3-Component.git"
         },
         {
             "name": "Legacy-ionic-heroku",
@@ -359,24 +359,116 @@
             "html_url": "https://github.com/Big-Silver/Legacy-ionic-heroku.git"
         },
         {
-            "name": "ionic2-swipe",
+            "name": "Ionic2-Swipe",
             "type": "project",
             "language": "ionic2, angular2, ionic2-swipe",
             "description": "This is Ionic2 app that I used swipe animation.",
-            "html_url": "https://github.com/Big-Silver/ionic2-swipe.git"
+            "html_url": "https://github.com/Big-Silver/Ionic2-Swipe.git"
         },
         {
-            "name": "ionic3-google-facebook-qrcode",
+            "name": "Ionic3-Google-Facebook-QRCode",
             "type": "project",
             "language": "Ionic 3, Angular 4, Facebook, Google-facebook, Qrcode",
             "description": "This app was built with Ionic 3, Angular 4, Facebook and Google API and shows QRcode.",
-            "html_url": "https://github.com/Big-Silver/ionic3-google-facebook-qrcode.git"
+            "html_url": "https://github.com/Big-Silver/Ionic3-Google-Facebook-QRCode.git"
         },
         {
-            "name": "angular4-dashboard",
+            "name": "Angular4-Dashboard",
             "type": "project",
             "language": "Angular 4, Admin-dashboard, Javascript",
             "description": "This is a dashboard using Angular 4 + Bootstrap 4.",
-            "html_url": "https://github.com/Big-Silver/angular4-dashboard.git"
+            "html_url": "https://github.com/Big-Silver/Angular4-Dashboard.git"
+        },
+        {
+            "name": "Drag-and-Drop",
+            "type": "project",
+            "language": "javascript, jquery, drag-and-drop, html5",
+            "description": "Drag n Drop, Clone, Resize, Remove and Rotate.",
+            "html_url": "https://github.com/Big-Silver/Drag-and-Drop.git"
+        },
+        {
+            "name": "Grapesjs-Editor",
+            "type": "project",
+            "language": "grapesjs, grapesjs-editor, javascript, jquery, html5, css3, codemirror",
+            "description": "Grapesjs Editor",
+            "html_url": "https://github.com/Big-Silver/Grapesjs-Editor.git"
+        },
+        {
+            "name": "Ionic-Restalist-App",
+            "type": "project",
+            "language": "ionic-framework, angularjs, angular, cordova, phonegap",
+            "description": "Restaurants List App",
+            "html_url": "https://github.com/Big-Silver/Ionic-Restalist-App.git"
+        },
+        {
+            "name": "Vue-Chat",
+            "type": "project",
+            "language": "vuejs, vue-bootstrap, vue-router, socket-io",
+            "description": "The Chatting App using Vue.js, Vue-Bootstrap, Socket.io.",
+            "html_url": "https://github.com/Big-Silver/Vue-Chat.git"
+        },
+        {
+            "name": "Angular-Bhloop-App",
+            "type": "project",
+            "language": "angular, angular-cli, bootstrap, javascript, html5, css3",
+            "description": "BHLoop Back Office by BH",
+            "html_url": "https://github.com/Big-Silver/Angular-Bhloop-App.git"
+        },
+        {
+            "name": "Angular-Slack",
+            "type": "project",
+            "language": "angular, angular-cli, socket.io, javascript, jquery, html5, css",
+            "description": "The Angular Chatting App like simple slack",
+            "html_url": "https://github.com/Big-Silver/Angular-Slack.git"
+        },
+        {
+            "name": "Ionic-Cardgame-App",
+            "type": "project",
+            "language": "ionic, cordova, angular, javascript",
+            "description": "Ionic Cardgame App",
+            "html_url": "https://github.com/Big-Silver/Ionic-Cardgame-App.git"
+        },
+        {
+            "name": "Cesium-Gradient",
+            "type": "project",
+            "language": "cesium, cesium-gradient, shader-loader, webpack, javascript",
+            "description": "An elevation visualizer for Cesium",
+            "html_url": "https://github.com/Big-Silver/Cesium-Gradient.git"
+        },
+        {
+            "name": "D3-Worldwide-Product",
+            "type": "project",
+            "language": "d3js, d3-map, topojson, javascript, html, css",
+            "description": "Interactive Map",
+            "html_url": "https://github.com/Big-Silver/D3-Worldwide-Product.git"
+        },
+        {
+            "name": "PHANTOM-Explorer",
+            "type": "project",
+            "language": "vue.js, phantom, security-vulnerability, nginx, tailwind-css",
+            "description": "A Blockchain Explorer for PHANTOM using Vue.js and Tailwind CSS. https://explorer.phantom.org",
+            "html_url": "https://github.com/Big-Silver/PHANTOM-Explorer.git"
+        },
+        {
+            "name": "ReactNative-Gameclub-App",
+            "type": "project",
+            "language": "react-native, reactjs, object-c, xcode, redux",
+            "description": "Game Club React native + Redux App",
+            "html_url": "https://github.com/Big-Silver/ReactNative-Gameclub-App.git"
+      
+        },
+        {
+            "name": "ReactNative-Hubkey-Appp",
+            "type": "project",
+            "language": "react-native, reactjs, object-c, react-onesignal",
+            "description": "2-Factor Authentication",
+            "html_url": "https://github.com/Big-Silver/ReactNative-Hubkey-App.git"
+        },
+        {
+            "name": "Isotope-Animation",
+            "type": "project",
+            "language": "isotope-animation, javascript, html, css, animation",
+            "description": "Isotope Animation",
+            "html_url": "https://github.com/Big-Silver/Isotope-Animation.git"
         },
     ];
